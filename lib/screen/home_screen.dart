@@ -12,7 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
   static const tentyFive = 1500;
   int totalSeconds = tentyFive;
   bool isRunning = false;
-  int totalPomodoros = 0;
+  int totalPomodoros = 2;
   late Timer timer;
 
   void onTick(Timer timer) {
